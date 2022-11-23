@@ -1,0 +1,12 @@
+.home{
+    flex: 4;
+    // margin-top: 20px;
+    .homeWidgets{
+        display: flex;
+        margin: 20px;
+        @media screen and (max-width: 968px) {
+            flex-direction: column-reverse;
+            gap: 20px;
+        }
+    }
+}

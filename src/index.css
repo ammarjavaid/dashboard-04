@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: .5s ease-in-out;
+}
+
+
+.container{
+    display: flex;
+    /* width: 50%; */
+    /* margin-top: 10px; */
+}
+
+.others{
+    flex: 4;
+    background-color: aqua;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
